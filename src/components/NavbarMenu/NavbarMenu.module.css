@@ -1,0 +1,13 @@
+.navbar {
+  margin-right: 150px;
+}
+.app {
+  display: flex;
+  background-color: teal;
+  height: 50px;
+}
+.ppp {
+  position: relative;
+  left: 680px;
+  margin-top: 10px;
+}
