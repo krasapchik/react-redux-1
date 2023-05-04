@@ -1,5 +1,4 @@
-import AboutPage from "./AboutPage";
-import NewsPage from "./NewsPage";
-import MenuPage from "./MenuPage";
-import ClientPage from "./ClientPage";
-export {AboutPage, NewsPage,MenuPage,ClientPage}
+import AboutPage from "./AboutPage/AboutPage";
+import NewsPage from ".NewsPage/NewsPage";
+import MenuPage from ".MenuPage/MenuPage"
+export{AboutPage,NewsPage, MenuPage}

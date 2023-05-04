@@ -1,4 +1,4 @@
 import App from "./App/App";
 import NavbarMenu from "./NavbarMenu/NavbarMenu";
-
-export{App,NavbarMenu}
+import ClientPage from "./ikon/ClientPage";
+export{App,NavbarMenu, ClientPage, }

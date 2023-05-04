@@ -1,3 +1,4 @@
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -5,8 +6,10 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import { AboutPage, MenuPage, NewsPage } from "../../pages";
 import NavbarMenu from "../NavbarMenu/NavbarMenu";
+import AboutPage from "../../pages/AboutPage/AboutPage";
+import NewsPage from "../../pages/NewsPage/NewsPage";
+import MenuPage from "../../pages/MenuPage/MenuPage";
 
 const App = () => {
   return (
@@ -14,9 +17,9 @@ const App = () => {
       <div></div>
       <NavbarMenu />
       <Routes>
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/menu" element={<MenuPage />} />
-        <Route path="/news" element={<NewsPage />} />
+        <Route path="/about" element={<AboutPage/>} />
+        <Route path="/menu" element={<MenuPage/>} />
+        <Route path="/news" element={<NewsPage/>} />
       </Routes>
     </Router>
   );
